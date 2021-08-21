@@ -1,4 +1,5 @@
-//No dependencies. Easy to use and fast to install.
+//One dependencies. Easy to use and fast to install.
+const fs = require("fs");
 
 //If needed
 function sleep(ms) {
@@ -20,11 +21,9 @@ module.exports = class {
     //Check if name is defined
     if(!name) return;
 
-    //If no data for the provided name, return and log in console
-    if(!this.data[name]) return;
+    //If value existing return it
+    if(this.data[name]) return this.data[name];
 
-    //Return stored value
-    return this.data[name];
   }
 
   //Function for storing values
@@ -55,5 +54,20 @@ module.exports = class {
   clear() {
     this.data = {};
     console.log("Data has been cleared.");
+  }
+
+  save(path) {
+    fs.writeFileSync(path, JSON.stringify(this.data),  (err) => {
+      if (err) throw err;
+      console.log('Data has been saved.');
+    });
+  }
+
+  load(path) {
+    fs.readFile(path, (err, data) => {
+      if (err) throw err;
+      this.data = JSON.parse(data);
+      console.log("Data has been loaded.")
+    });
   }
 }
