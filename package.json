@@ -12,6 +12,15 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hanyaku-Chan/Collection-json.git"
-  }
+  },
+
+  "keywords": [
+  "data",
+  "values",
+  "json",
+  "management",
+  "node",
+  "data-management"
+]
 
 }
