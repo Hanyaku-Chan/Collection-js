@@ -1,4 +1,4 @@
-# Collection.js
+# JSON-Collection
 
 Collection.js is a Node.JS Library for managing data. It has been inspired by the Discord.JS Collection.
 
@@ -7,13 +7,13 @@ Collection.js is a Node.JS Library for managing data. It has been inspired by th
 Use the package manager npm to install Collection.js.
 
 ```bash
-npm i collection-json
+npm i json-collection
 ```
 
 ## Usage
 
 ```javascript
-const Collection = require("collection-json");
+const Collection = require("json-collection");
 
 let data = new Collection();
 
