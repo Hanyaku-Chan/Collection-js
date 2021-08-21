@@ -19,7 +19,7 @@ let data = new Collection();
 
 data.set("name", "value");
 
-console.log(data.get("name");
+console.log(data.get("name"));
 ```
 
 You can also store a required file or another Collection inside a Collection.
