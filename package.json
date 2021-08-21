@@ -1,5 +1,5 @@
 {
-  "name": "collection.js",
+  "name": "collection-json",
   "version": "1.0.0",
   "description": "a simple json data manager",
   "main": "index.js",
@@ -11,7 +11,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hanyaku/Collection-js.git"
-  },
+    "url": "git+https://github.com/Hanyaku/Collection-json.git"
+  }
 
 }
