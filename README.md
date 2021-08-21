@@ -4,7 +4,7 @@ JSON-Collection is a Node.JS Library for managing data. It has been inspired by 
 
 ## Installation
 
-Use the package manager npm to install Collection.js.
+Use the package manager npm to install JSON-Collection.
 
 ```bash
 npm i json-collection
