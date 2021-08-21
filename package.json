@@ -1,5 +1,5 @@
 {
-  "name": "collection-json",
+  "name": "json-collection",
   "version": "1.0.0",
   "description": "a simple json data manager",
   "main": "index.js",
