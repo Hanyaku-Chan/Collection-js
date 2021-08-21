@@ -1,6 +1,6 @@
 # JSON-Collection
 
-Collection.js is a Node.JS Library for managing data. It has been inspired by the Discord.JS Collection.
+JSON-Collection is a Node.JS Library for managing data. It has been inspired by the Discord.JS Collection.
 
 ## Installation
 

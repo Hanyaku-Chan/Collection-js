@@ -56,6 +56,7 @@ module.exports = class {
     console.log("Data has been cleared.");
   }
 
+  //Saving as JSON file
   save(path) {
     fs.writeFileSync(path, JSON.stringify(this.data),  (err) => {
       if (err) throw err;
@@ -63,11 +64,17 @@ module.exports = class {
     });
   }
 
+  //Loading the JSON file
   load(path) {
     fs.readFile(path, (err, data) => {
       if (err) throw err;
       this.data = JSON.parse(data);
       console.log("Data has been loaded.")
     });
+  }
+
+  //Returns the JSON
+  getJson() {
+    return this.data;
   }
 }
